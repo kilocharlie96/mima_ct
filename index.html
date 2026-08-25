@@ -73,7 +73,7 @@
         <div class="navbar-brand">
           <a class="navbar-item" href="#">
             <div>
-              <img src="favicon.png" alt="logo" />
+              <img src="favicon.png" alt="logo" style="max-height: 40px" />
             </div>
           </a>
 
@@ -96,6 +96,42 @@
             <a class="navbar-item" href="#sluzby">Naše služby</a>
             <a class="navbar-item" href="#vyhody">Prečo si vybrať nás</a>
             <a class="navbar-item" href="#kontakt">Kontakt</a>
+
+            <!-- Language Selector -->
+            <div class="navbar-item lang-selector-wrapper">
+              <div class="dropdown is-hoverable is-right">
+                <div class="dropdown-trigger">
+                  <button
+                    class="button is-small lang-btn"
+                    aria-haspopup="true"
+                    aria-controls="lang-menu"
+                  >
+                    <span class="icon is-small">
+                      <i class="fas fa-globe"></i>
+                    </span>
+                    <span class="has-text-weight-bold">SK</span>
+                    <span class="icon is-small">
+                      <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                  </button>
+                </div>
+                <div class="dropdown-menu" id="lang-menu" role="menu">
+                  <div class="dropdown-content">
+                    <a href="#" class="dropdown-item is-active">
+                      <span class="fi fi-sk mr-2"></span> Slovensky (SK)
+                    </a>
+                    <a href="./en/" class="dropdown-item">
+                      <span class="fi fi-gb mr-2"></span> English (EN)
+                    </a>
+                    <a href="./de/" class="dropdown-item">
+                      <span class="fi fi-gb mr-2"></span> Deutsch (DE)
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Call to Action Button -->
             <div class="navbar-item">
               <a class="button is-accent" href="#kontakt">
                 <span>Nezáväzný dopyt</span>

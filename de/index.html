@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      MIMA constructions & technologies | Qualifizierte Fachkräfte & Baulösungen
+    </title>
+
+    <!-- Favicon für die meisten Browser -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Favicon für Apple-Geräte -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" /> -->
+
+    <link rel="stylesheet" href="../style.css" />
+    <!-- Bulma CSS Framework -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar is-hidden-touch">
+      <div class="container">
+        <div class="level">
+          <div class="level-left">
+            <div class="level-item">
+              <span
+                ><i class="fa-solid fa-location-dot mr-2"></i>Filiale Šurany:
+                Hviezdoslavova 3439 | Mo–Fr 8:00–12:00, 13:00–16:00</span
+              >
+            </div>
+          </div>
+          <div class="level-right">
+            <div class="level-item mr-4">
+              <a href="mailto:info@mimact.sk"
+                ><i class="fa-solid fa-envelope mr-2"></i>info@mimact.sk</a
+              >
+            </div>
+            <div class="level-item">
+              <a href="tel:+421908379454"
+                ><i class="fa-solid fa-phone mr-2"></i>+421 908 379 454</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header / Navigation -->
+    <nav
+      class="navbar is-sticky"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            <div>
+              <img src="../favicon.png" alt="logo" style="max-height: 40px" />
+            </div>
+          </a>
+
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarMain"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarMain" class="navbar-menu">
+          <div class="navbar-end align-items-center">
+            <a class="navbar-item" href="#uber-uns">Über uns</a>
+            <a class="navbar-item" href="#leistungen">Unsere Leistungen</a>
+            <a class="navbar-item" href="#vorteile">Warum wir</a>
+            <a class="navbar-item" href="#kontakt">Kontakt</a>
+
+            <!-- Language Selector -->
+            <div class="navbar-item lang-selector-wrapper">
+              <div class="dropdown is-hoverable is-right">
+                <div class="dropdown-trigger">
+                  <button
+                    class="button is-small lang-btn"
+                    aria-haspopup="true"
+                    aria-controls="lang-menu"
+                  >
+                    <span class="icon is-small">
+                      <i class="fas fa-globe"></i>
+                    </span>
+                    <span class="has-text-weight-bold">DE</span>
+                    <span class="icon is-small">
+                      <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                  </button>
+                </div>
+                <div class="dropdown-menu" id="lang-menu" role="menu">
+                  <div class="dropdown-content">
+                    <a href="../index.html" class="dropdown-item">
+                      <span class="fi fi-sk mr-2"></span> Slovensky (SK)
+                    </a>
+                    <a href="../en/index.html" class="dropdown-item">
+                      <span class="fi fi-gb mr-2"></span> English (EN)
+                    </a>
+                    <a href="#" class="dropdown-item is-active">
+                      <span class="fi fi-de mr-2"></span> Deutsch (DE)
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Call to Action Button -->
+            <div class="navbar-item">
+              <a class="button is-accent" href="#kontakt">
+                <span>Unverbindliche Anfrage</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-custom">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column is-7">
+            <div class="hero-tag">
+              <i class="fa-solid fa-shield-halved mr-2"></i> Familienunternehmen
+              mit 10-jähriger Tradition
+            </div>
+            <h1 class="hero-title">
+              Qualifizierte Fachkräfte für Ihre Bau- und Technologieprojekte
+            </h1>
+            <p class="hero-subtitle">
+              Wir übernehmen die Auswahl, Verwaltung und Koordination
+              professioneller Monteure, Bauarbeiter, Schweißer und Spezialisten.
+              Alles aus einer Hand.
+            </p>
+            <div class="buttons">
+              <a href="#kontakt" class="button is-accent">
+                <i class="fa-solid fa-paper-plane mr-2"></i> Arbeitskräfte
+                anfordern
+              </a>
+              <a href="#leistungen" class="button is-outline-white">
+                <i class="fa-solid fa-list-check mr-2"></i> Leistungen ansehen
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats / Key Highlights Bar -->
+    <div class="container px-4">
+      <div class="stats-card">
+        <div class="columns has-text-centered">
+          <div class="column">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Jahre Erfahrung am Markt</div>
+          </div>
+          <div class="column">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Flexibilität & Administration</div>
+          </div>
+          <div class="column">
+            <div class="stat-number">360°</div>
+            <div class="stat-label">Projektkoordination aus einer Hand</div>
+          </div>
+          <div class="column">
+            <div class="stat-number">TOP</div>
+            <div class="stat-label">Fokus auf Sicherheit und Qualität</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="uber-uns" class="section py-6 mt-5">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column is-6">
+            <figure class="image is-4by3">
+              <img
+                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
+                alt="Baukoordination"
+                style="border-radius: 16px; object-fit: cover"
+              />
+            </figure>
+          </div>
+          <div class="column is-6 pl-5-desktop">
+            <p
+              class="has-text-weight-bold is-uppercase text-accent"
+              style="color: var(--accent-color); letter-spacing: 1px"
+            >
+              Wer wir sind
+            </p>
+            <h2 class="section-title">
+              Ihr Partner für reibungslose Projektabläufe
+            </h2>
+            <p class="mb-4">
+              Wir sind ein Familienunternehmen mit 10-jähriger Tradition in der
+              Bereitstellung von qualifiziertem Personal für Projekte jeder
+              Größenordnung. Wir kennen die Besonderheiten des Bausektors und
+              wissen, worauf es ankommt.
+            </p>
+            <p class="mb-5">
+              Unsere Mission ist es, Ihr zuverlässiger Partner zu sein, der
+              Monteure, Bauarbeiter, Installateure, Schweißer und weiteres
+              Fachpersonal genau nach Ihren Anforderungen bereitstellt. Mit uns
+              bauen Sie auf Sicherheit.
+            </p>
+            <div
+              class="box is-shadowless"
+              style="
+                background: var(--bg-light);
+                border-left: 4px solid var(--accent-color);
+              "
+            >
+              <p class="is-italic font-weight-medium">
+                "Unsere Kunden schätzen uns für Zuverlässigkeit, Präzision und
+                außergewöhnlichen Service. Wir sparen Ihnen Zeit und Energie und
+                garantieren höchste Qualität."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section
+      id="leistungen"
+      class="section py-6"
+      style="background-color: var(--bg-light)"
+    >
+      <div class="container">
+        <div class="has-text-centered">
+          <p
+            class="has-text-weight-bold is-uppercase"
+            style="color: var(--accent-color); letter-spacing: 1px"
+          >
+            Unser Angebot
+          </p>
+          <h2 class="section-title">Unsere umfassenden Leistungen</h2>
+          <p class="section-subtitle">
+            Wir bieten professionelle Kapazitäten für verschiedene Bereiche des
+            Bau- und Technologiesektors
+          </p>
+        </div>
+
+        <div class="columns is-multiline">
+          <!-- Service 1 -->
+          <div class="column is-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-city"></i>
+              </div>
+              <h3 class="title is-4 mb-3" style="color: var(--primary-color)">
+                Großbauprojekte
+              </h3>
+              <p class="has-text-grey">
+                Komplette Bereitstellung von Arbeitskräften für Großbaustellen,
+                Infrastruktur und komplexe Gebäude.
+              </p>
+              <div class="service-tags">
+                <span class="service-tag">Wohnkomplexe</span>
+                <span class="service-tag">Industrieobjekte</span>
+                <span class="service-tag">Bürogebäude</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="column is-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-house-chimney-crack"></i>
+              </div>
+              <h3 class="title is-4 mb-3" style="color: var(--primary-color)">
+                Kleinere Projekte
+              </h3>
+              <p class="has-text-grey">
+                Flexible Teams und Spezialisten für die Umsetzung und
+                Anpassungen in kleinerem Umfang.
+              </p>
+              <div class="service-tags">
+                <span class="service-tag">Renovierungen</span>
+                <span class="service-tag">Innenausbau</span>
+                <span class="service-tag">Einfamilienhäuser</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="column is-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
+              <h3 class="title is-4 mb-3" style="color: var(--primary-color)">
+                Spezialarbeiten
+              </h3>
+              <p class="has-text-grey">
+                Fachhandwerker mit erforderlichen Zertifizierungen und
+                technologischem Know-how.
+              </p>
+              <div class="service-tags">
+                <span class="service-tag">Schlosserei &amp; Spenglerei</span>
+                <span class="service-tag">Klima &amp; Lüftung</span>
+                <span class="service-tag">Elektroinstallationen</span>
+                <span class="service-tag">Schweißen &amp; Sanitär</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="vorteile" class="section py-6">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column is-5">
+            <p
+              class="has-text-weight-bold is-uppercase"
+              style="color: var(--accent-color); letter-spacing: 1px"
+            >
+              Warum MIMA
+            </p>
+            <h2 class="section-title">Warum sollten Sie uns wählen?</h2>
+            <p class="mb-5 text-grey">
+              Wir legen Wert auf langjährige Beziehungen, Fachkompetenz und
+              erstklassige Ausrüstung unserer Mitarbeiter auf den Baustellen.
+            </p>
+
+            <div class="feature-box">
+              <div class="feature-icon-wrapper">
+                <i class="fa-solid fa-award"></i>
+              </div>
+              <div>
+                <h4 class="title is-5 mb-1">Reichlich Erfahrung</h4>
+                <p class="is-size-6 has-text-grey">
+                  Mit über 10 Jahren am Markt lösen wir auch die
+                  anspruchsvollsten Kundenanforderungen effizient.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-box">
+              <div class="feature-icon-wrapper">
+                <i class="fa-solid fa-user-check"></i>
+              </div>
+              <div>
+                <h4 class="title is-5 mb-1">Fachwissen und Sicherheit</h4>
+                <p class="is-size-6 has-text-grey">
+                  Unsere Mitarbeiter durchlaufen ein sorgfältiges
+                  Auswahlverfahren und Schulungen nach aktuellen Standards.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-box">
+              <div class="feature-icon-wrapper">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <div>
+                <h4 class="title is-5 mb-1">Flexibilität und Schnelligkeit</h4>
+                <p class="is-size-6 has-text-grey">
+                  Wir reagieren umgehend und stellen die benötigte Anzahl an
+                  Spezialisten in kürzester Zeit bereit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-6 is-offset-1">
+            <div class="feature-box">
+              <div class="feature-icon-wrapper">
+                <i class="fa-solid fa-sliders"></i>
+              </div>
+              <div>
+                <h4 class="title is-5 mb-1">Individueller Ansatz</h4>
+                <p class="is-size-6 has-text-grey">
+                  Jedes Projekt ist für uns einzigartig. Wir passen unsere
+                  Dienstleistungen vollkommen an Ihre Bedürfnisse an.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-box">
+              <div class="feature-icon-wrapper">
+                <i class="fa-solid fa-hardhat"></i>
+              </div>
+              <div>
+                <h4 class="title is-5 mb-1">Fokus auf Arbeitssicherheit</h4>
+                <p class="is-size-6 has-text-grey">
+                  Sicherheit am Arbeitsplatz hat bei uns oberste Priorität. Wir
+                  achten streng auf Vorschriften und hochwertige PSA.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="box p-5 mt-5"
+              style="
+                background: linear-gradient(135deg, #1e293b, #0f172a);
+                color: white;
+                border-radius: 16px;
+              "
+            >
+              <div class="level is-mobile call-us">
+                <div class="level-left">
+                  <div>
+                    <h4 class="title is-5 has-text-white mb-1">
+                      Benötigen Sie Beratung?
+                    </h4>
+                    <p class="is-size-6" style="color: #cbd5e1">
+                      Rufen Sie uns an und wir besprechen die Möglichkeiten für
+                      Ihr Projekt.
+                    </p>
+                  </div>
+                </div>
+                <div class="level-right">
+                  <a href="tel:+421908379454" class="button is-accent">
+                    <i class="fa-solid fa-phone"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontakt" class="section py-6 contact-section">
+      <div class="container">
+        <div class="has-text-centered mb-6">
+          <p
+            class="has-text-weight-bold is-uppercase"
+            style="color: var(--accent-color); letter-spacing: 1px"
+          >
+            Kontakt
+          </p>
+          <h2 class="section-title">Nehmen Sie Kontakt auf</h2>
+          <p class="section-subtitle">
+            Haben Sie Fragen oder suchen Sie qualifizierte Fachkräfte? Schreiben
+            Sie uns.
+          </p>
+        </div>
+
+        <div class="columns">
+          <!-- Form -->
+          <div class="column is-7">
+            <div class="contact-box">
+              <h3 class="title is-4 mb-4" style="color: var(--primary-color)">
+                Unverbindliches Kontaktformular
+              </h3>
+              <form>
+                <div class="field">
+                  <label class="label">Vor- und Nachname</label>
+                  <div class="control has-icons-left">
+                    <input
+                      class="input"
+                      type="text"
+                      placeholder="z. B. Max Mustermann"
+                    />
+                    <span class="icon is-small is-left"
+                      ><i class="fa-solid fa-user"></i
+                    ></span>
+                  </div>
+                </div>
+
+                <div class="columns">
+                  <div class="column is-6">
+                    <div class="field">
+                      <label class="label">E-Mail-Adresse *</label>
+                      <div class="control has-icons-left">
+                        <input
+                          class="input"
+                          type="email"
+                          placeholder="ihre@email.de"
+                          required
+                        />
+                        <span class="icon is-small is-left"
+                          ><i class="fa-solid fa-envelope"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-6">
+                    <div class="field">
+                      <label class="label">Telefonnummer</label>
+                      <div class="control has-icons-left">
+                        <input
+                          class="input"
+                          type="tel"
+                          placeholder="+421 9XX XXX XXX"
+                        />
+                        <span class="icon is-small is-left"
+                          ><i class="fa-solid fa-phone"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label class="label">Ihre Anfrage</label>
+                  <div class="control">
+                    <textarea
+                      class="textarea"
+                      rows="4"
+                      placeholder="Beschreiben Sie Ihr Projekt oder das benötigte Personal..."
+                    ></textarea>
+                  </div>
+                </div>
+
+                <button
+                  type="submit"
+                  class="button is-accent is-fullwidth mt-4"
+                >
+                  <i class="fa-solid fa-paper-plane mr-2"></i> Anfrage absenden
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Contact Cards / Info -->
+          <div class="column is-5">
+            <div class="contact-info-card">
+              <h3 class="title is-4 has-text-white mb-5">
+                Kontaktinformationen
+              </h3>
+
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <div>
+                  <p class="has-text-weight-bold mb-0">Vertriebsabteilung</p>
+                  <p class="is-size-6">
+                    <a href="mailto:sales@mimact.sk" class="has-text-white"
+                      >sales@mimact.sk</a
+                    >
+                  </p>
+                  <p class="is-size-6">
+                    <a href="tel:+421908379454" class="has-text-white"
+                      >+421 908 379 454</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fa-solid fa-file-invoice"></i>
+                </div>
+                <div>
+                  <p class="has-text-weight-bold mb-0">
+                    Buchhaltung / Rechnungswesen
+                  </p>
+                  <p class="is-size-6">
+                    <a href="mailto:fa@mimact.sk" class="has-text-white"
+                      >fa@mimact.sk</a
+                    >
+                  </p>
+                  <p class="is-size-6">
+                    <a href="tel:+421948762185" class="has-text-white"
+                      >+421 948 762 185</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fa-solid fa-users"></i>
+                </div>
+                <div>
+                  <p class="has-text-weight-bold mb-0">Personalabteilung</p>
+                  <p class="is-size-6">
+                    <a href="mailto:info@mimact.sk" class="has-text-white"
+                      >info@mimact.sk</a
+                    >
+                  </p>
+                  <p class="is-size-6">
+                    <a href="tel:+421903812587" class="has-text-white"
+                      >+421 903 812 587</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <hr
+                style="
+                  background-color: rgba(255, 255, 255, 0.1);
+                  margin: 1.5rem 0;
+                "
+              />
+
+              <div class="contact-info-item mb-0">
+                <div class="contact-info-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <p class="has-text-weight-bold mb-0">Filiale Šurany</p>
+                  <p class="is-size-6" style="color: #cbd5e1">
+                    Hviezdoslavova 3439, 942 01 Šurany
+                  </p>
+                  <p class="is-size-7" style="color: #94a3b8">
+                    Mo - Fr: 8:00 - 12:00, 13:00 - 16:00
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-custom">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-4">
+            <h3 class="footer-title">MIMA</h3>
+            <p class="mb-4" style="color: #94a3b8">
+              MIMA constructions &amp; technologies – Ihr zuverlässiger Partner
+              für die Bereitstellung qualifizierter Bau- und Technologiekräfte.
+            </p>
+            <p class="is-size-7" style="color: #64748b">
+              Mit uns bauen Sie auf Sicherheit.
+            </p>
+          </div>
+
+          <div class="column is-2 is-offset-1">
+            <h4 class="footer-title">Navigation</h4>
+            <div class="footer-links">
+              <a href="#uber-uns">Über uns</a>
+              <a href="#leistungen">Leistungen</a>
+              <a href="#vorteile">Warum wir</a>
+              <a href="#kontakt">Kontakt</a>
+            </div>
+          </div>
+
+          <div class="column is-5">
+            <h4 class="footer-title">Rechnungsangaben</h4>
+            <p class="mb-1">
+              <strong class="has-text-white">METALINOX SK s.r.o.</strong>
+            </p>
+            <p class="mb-1">Šoltésovej 5093/37</p>
+            <p class="mb-1">940 01 Nové Zámky</p>
+          </div>
+        </div>
+
+        <div class="footer-bottom level">
+          <div class="level-left">
+            <p class="level-item is-size-7 has-text-centered">
+              &copy; 2026 MIMA constructions &amp; technologies. Alle Rechte
+              vorbehalten.
+            </p>
+          </div>
+          <div class="level-right">
+            <p class="level-item is-size-7 has-text-centered">
+              Diese Website verwendet nur technisch notwendige Cookies, die für
+              den ordnungsgemäßen Betrieb erforderlich sind.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Simple Mobile Navbar Toggle JS -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const $navbarBurgers = Array.prototype.slice.call(
+          document.querySelectorAll(".navbar-burger"),
+          0,
+        );
+        if ($navbarBurgers.length > 0) {
+          $navbarBurgers.forEach((el) => {
+            el.addEventListener("click", () => {
+              const target = el.dataset.target;
+              const $target = document.getElementById(target);
+              el.classList.toggle("is-active");
+              $target.classList.toggle("is-active");
+            });
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
