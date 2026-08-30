@@ -8,6 +8,10 @@
   --card-border: #e2e8f0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   color: var(--text-main);
