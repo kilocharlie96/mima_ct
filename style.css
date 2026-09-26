@@ -450,3 +450,9 @@ body {
     gap: 0.5em;
   }
 }
+
+@media screen and (min-width: 1216px) and (max-width: 1407px) {
+    .is-45-char {
+        max-width: 45ch;
+    }
+}
