@@ -482,13 +482,16 @@
               <h3 class="title is-4 mb-4" style="color: var(--primary-color)">
                 Unverbindliches Kontaktformular
               </h3>
-              <form>
+              <form action="/contact-form.php" method="post">
+                <input type="hidden" name="lang" value="de" />
                 <div class="field">
                   <label class="label">Vor- und Nachname</label>
                   <div class="control has-icons-left">
                     <input
                       class="input"
                       type="text"
+                      name="full_name"
+                      maxlength="100"
                       placeholder="z. B. Max Mustermann"
                     />
                     <span class="icon is-small is-left"
@@ -505,6 +508,8 @@
                         <input
                           class="input"
                           type="email"
+                          name="email"
+                          maxlength="254"
                           placeholder="ihre@email.de"
                           required
                         />
@@ -521,6 +526,8 @@
                         <input
                           class="input"
                           type="tel"
+                          name="phone"
+                          maxlength="30"
                           placeholder="+421 9XX XXX XXX"
                         />
                         <span class="icon is-small is-left"
@@ -536,6 +543,8 @@
                   <div class="control">
                     <textarea
                       class="textarea"
+                      name="message"
+                      maxlength="5000"
                       rows="4"
                       placeholder="Beschreiben Sie Ihr Projekt oder das benötigte Personal..."
                     ></textarea>

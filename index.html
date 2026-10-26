@@ -484,13 +484,16 @@
               <h3 class="title is-4 mb-4" style="color: var(--primary-color)">
                 Nezáväzný kontaktný formulár
               </h3>
-              <form>
+              <form action="/contact-form.php" method="post">
+                <input type="hidden" name="lang" value="sk" />
                 <div class="field">
                   <label class="label">Meno a priezvisko</label>
                   <div class="control has-icons-left">
                     <input
                       class="input"
                       type="text"
+                      name="full_name"
+                      maxlength="100"
                       placeholder="napr. Peter Novák"
                     />
                     <span class="icon is-small is-left"
@@ -507,6 +510,8 @@
                         <input
                           class="input"
                           type="email"
+                          name="email"
+                          maxlength="254"
                           placeholder="vas@email.sk"
                           required
                         />
@@ -523,6 +528,8 @@
                         <input
                           class="input"
                           type="tel"
+                          name="phone"
+                          maxlength="30"
                           placeholder="+421 9XX XXX XXX"
                         />
                         <span class="icon is-small is-left"
@@ -538,6 +545,8 @@
                   <div class="control">
                     <textarea
                       class="textarea"
+                      name="message"
+                      maxlength="5000"
                       rows="4"
                       placeholder="Popíšte váš projekt alebo typ pracovníkov, ktorých hľadáte..."
                     ></textarea>
